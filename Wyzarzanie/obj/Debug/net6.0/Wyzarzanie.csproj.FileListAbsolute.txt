@@ -1,0 +1,15 @@
+C:\Users\mbiel\source\repos\Wyzarzanie\bin\Debug\net6.0\Wyzarzanie.exe
+C:\Users\mbiel\source\repos\Wyzarzanie\bin\Debug\net6.0\Wyzarzanie.deps.json
+C:\Users\mbiel\source\repos\Wyzarzanie\bin\Debug\net6.0\Wyzarzanie.runtimeconfig.json
+C:\Users\mbiel\source\repos\Wyzarzanie\bin\Debug\net6.0\Wyzarzanie.dll
+C:\Users\mbiel\source\repos\Wyzarzanie\bin\Debug\net6.0\Wyzarzanie.pdb
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.csproj.AssemblyReference.cache
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.AssemblyInfoInputs.cache
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.AssemblyInfo.cs
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.csproj.CoreCompileInputs.cache
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.dll
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\refint\Wyzarzanie.dll
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.pdb
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\Wyzarzanie.genruntimeconfig.cache
+C:\Users\mbiel\source\repos\Wyzarzanie\obj\Debug\net6.0\ref\Wyzarzanie.dll
