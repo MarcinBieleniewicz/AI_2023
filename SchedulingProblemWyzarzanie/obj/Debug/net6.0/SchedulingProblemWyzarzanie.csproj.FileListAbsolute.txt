@@ -1,0 +1,15 @@
+D:\AI_2023\SchedulingProblemWyzarzanie\bin\Debug\net6.0\SchedulingProblemWyzarzanie.exe
+D:\AI_2023\SchedulingProblemWyzarzanie\bin\Debug\net6.0\SchedulingProblemWyzarzanie.deps.json
+D:\AI_2023\SchedulingProblemWyzarzanie\bin\Debug\net6.0\SchedulingProblemWyzarzanie.runtimeconfig.json
+D:\AI_2023\SchedulingProblemWyzarzanie\bin\Debug\net6.0\SchedulingProblemWyzarzanie.dll
+D:\AI_2023\SchedulingProblemWyzarzanie\bin\Debug\net6.0\SchedulingProblemWyzarzanie.pdb
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.csproj.AssemblyReference.cache
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.GeneratedMSBuildEditorConfig.editorconfig
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.AssemblyInfoInputs.cache
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.AssemblyInfo.cs
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.csproj.CoreCompileInputs.cache
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.dll
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\refint\SchedulingProblemWyzarzanie.dll
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.pdb
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\SchedulingProblemWyzarzanie.genruntimeconfig.cache
+D:\AI_2023\SchedulingProblemWyzarzanie\obj\Debug\net6.0\ref\SchedulingProblemWyzarzanie.dll
