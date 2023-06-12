@@ -1,0 +1,17 @@
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.csproj.AssemblyReference.cache
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.AssemblyInfoInputs.cache
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.AssemblyInfo.cs
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.csproj.CoreCompileInputs.cache
+D:\AI_2023\GeneticAlgorithm\bin\Debug\net6.0\GeneticAlgorithm.exe
+D:\AI_2023\GeneticAlgorithm\bin\Debug\net6.0\GeneticAlgorithm.deps.json
+D:\AI_2023\GeneticAlgorithm\bin\Debug\net6.0\GeneticAlgorithm.runtimeconfig.json
+D:\AI_2023\GeneticAlgorithm\bin\Debug\net6.0\GeneticAlgorithm.dll
+D:\AI_2023\GeneticAlgorithm\bin\Debug\net6.0\GeneticAlgorithm.pdb
+D:\AI_2023\GeneticAlgorithm\bin\Debug\net6.0\GAF.Core.20.dll
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.csproj.CopyComplete
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.dll
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\refint\GeneticAlgorithm.dll
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.pdb
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\GeneticAlgorithm.genruntimeconfig.cache
+D:\AI_2023\GeneticAlgorithm\obj\Debug\net6.0\ref\GeneticAlgorithm.dll

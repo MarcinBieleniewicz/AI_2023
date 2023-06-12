@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GeneticAlgorithm/1.0.0": {
+        "dependencies": {
+          "GAF": "2.3.1"
+        },
+        "runtime": {
+          "GeneticAlgorithm.dll": {}
+        }
+      },
+      "GAF/2.3.1": {
+        "runtime": {
+          "lib/netcoreapp2.0/GAF.Core.20.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeneticAlgorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GAF/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xDJ8R15i52pQfyTyAHaRnY/tn0k2TKldM4ORLqJhiu0RWAuLFsaGsQKy0TpZXB+IHhuoTDgO6B7Q/3KoGSagvg==",
+      "path": "gaf/2.3.1",
+      "hashPath": "gaf.2.3.1.nupkg.sha512"
+    }
+  }
+}

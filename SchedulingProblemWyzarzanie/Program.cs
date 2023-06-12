@@ -83,13 +83,31 @@ namespace SchedulingProblemWyzarzanie
                 .Select(_ => new List<Task>())
                 .ToList();
 
-            foreach (var task in tasks)
+            var unassignedTasks = new List<Task>(tasks);
+
+            while (unassignedTasks.Count > 0)
             {
-                var randomProcessorIndex = random.Next(numProcessors);
-                initialSolution[randomProcessorIndex].Add(task);
+                var taskIndex = random.Next(unassignedTasks.Count);
+                var task = unassignedTasks[taskIndex];
+
+                var processorIndex = random.Next(numProcessors);
+                var processor = initialSolution[processorIndex];
+
+                var dependenciesSatisfied = task.Dependencies.All(dependency => IsTaskAssigned(initialSolution, dependency));
+                if (dependenciesSatisfied)
+                {
+                    processor.Add(task);
+                    unassignedTasks.Remove(task);
+                }
             }
 
             return initialSolution;
+        }
+
+        //sprawdza czy zadanie ma przypisany procesor
+        static bool IsTaskAssigned(List<List<Task>> solution, Task task)
+        {
+            return solution.Any(processor => processor.Contains(task));
         }
 
         //algorytm wyzarzania
@@ -177,7 +195,7 @@ namespace SchedulingProblemWyzarzanie
                     if (!taskEndTime.ContainsKey(task))
                         taskEndTime[task] = 0;
 
-                    var dependenciesEndTime = task.Dependencies.Count > 0 ? task.Dependencies.Max(dependency => taskEndTime[dependency]) : 0;
+                    var dependenciesEndTime = task.Dependencies.Count > 0 ? task.Dependencies.Max(dependency => taskEndTime.ContainsKey(dependency) ? taskEndTime[dependency] : 0) : 0;
                     var taskStartTime = Math.Max(endTime, dependenciesEndTime);
                     var taskEndTimeValue = taskStartTime + task.Duration;
 

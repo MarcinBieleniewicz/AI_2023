@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7H5nM7AQ9Ag2xjEIx6EtHz5fkhKO4LRlHaCLtq1bw6I7RbRcgOAdpEFa0qLo9Su3Bdqq3DPfSQSoTb6YXKHIWA==",
+  "success": true,
+  "projectFilePath": "D:\\AI_2023\\GeneticAlgorithm\\GeneticAlgorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mbiel\\.nuget\\packages\\gaf\\2.3.1\\gaf.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
