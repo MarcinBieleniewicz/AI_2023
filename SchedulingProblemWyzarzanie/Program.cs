@@ -153,7 +153,7 @@ namespace SchedulingProblemWyzarzanie
         {
             var random = new Random();
 
-            // Create a deep copy of the solution to avoid accidentally modifying the previous solution
+            //tworzy kopie ktora nie pozwala na zmiane oryginalu
             var newSolution = new List<List<Task>>();
             foreach (var processor in solution)
             {
@@ -170,7 +170,7 @@ namespace SchedulingProblemWyzarzanie
             var processorIndex1 = random.Next(solution.Count);
             var processorIndex2 = random.Next(solution.Count);
 
-            // Check if there are tasks to swap between the processors
+            //sprawdza czy da sie zmienic procesy miedzy procesorami
             if (newSolution[processorIndex1].Count > 0 && newSolution[processorIndex2].Count > 0)
             {
                 var taskIndex1 = random.Next(newSolution[processorIndex1].Count);
@@ -179,7 +179,7 @@ namespace SchedulingProblemWyzarzanie
                 var task1 = newSolution[processorIndex1][taskIndex1];
                 var task2 = newSolution[processorIndex2][taskIndex2];
 
-                // Check if the swap is valid based on dependencies
+                //zmienne do sprawdzenia czy warunek zaleznosci jest spelniony
                 var dependenciesTask1 = task1.Dependencies;
                 var dependenciesTask2 = task2.Dependencies;
                 var validSwap = !dependenciesTask1.Any(d => newSolution[processorIndex2].Contains(d)) &&
@@ -187,22 +187,22 @@ namespace SchedulingProblemWyzarzanie
 
                 if (validSwap)
                 {
-                    // Swap the tasks
+                    //zmien zadania
                     newSolution[processorIndex1][taskIndex1] = task2;
                     newSolution[processorIndex2][taskIndex2] = task1;
 
-                    // Update dependencies after the swap
+                    //zaktualizuj zaleznosci
                     foreach (var task in newSolution.SelectMany(p => p))
                     {
                         task.Dependencies.RemoveAll(t => t == task1 || t == task2);
                     }
 
-                    // Check if any task's dependencies are violated
+                    //sprawdz czy jakies zaleznosci sa niespelnione
                     var violatedTasks = newSolution.SelectMany(p => p)
                         .Where(t => t.Dependencies.Any(d => !newSolution.SelectMany(p => p).Contains(d)))
                         .ToList();
 
-                    // If dependencies are violated, undo the swap
+                    //jesli sa cofnij poprzednia operacje
                     if (violatedTasks.Any())
                     {
                         newSolution[processorIndex1][taskIndex1] = task1;
